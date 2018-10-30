@@ -1,10 +1,14 @@
-package guokun.com.cn.ondcode;
+package guokun.com.cn.ondcode.activity.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+
+import guokun.com.cn.ondcode.base.ActivityControler;
+import guokun.com.cn.ondcode.R;
+import guokun.com.cn.ondcode.base.TitleBar;
 
 public abstract class BaseActivity extends AppCompatActivity implements TitleBar.OnTitleBarClickListener {
     protected TitleBar mTitleBar;

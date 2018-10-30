@@ -1,4 +1,4 @@
-package guokun.com.cn.ondcode;
+package guokun.com.cn.ondcode.base;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import guokun.com.cn.ondcode.R;
 
 public class TitleLayout extends LinearLayout implements View.OnClickListener {
     public TitleLayout(Context context, AttributeSet attrs) {

@@ -1,4 +1,4 @@
-package guokun.com.cn.ondcode;
+package guokun.com.cn.ondcode.base;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import guokun.com.cn.ondcode.R;
 
 public class TitleBar extends RelativeLayout {
     private OnTitleBarClickListener mListener;

@@ -1,13 +1,10 @@
-package guokun.com.cn.ondcode;
+package guokun.com.cn.ondcode.activity;
 
-import android.content.Intent;
-import android.net.Uri;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.Toast;
+
+import guokun.com.cn.ondcode.activity.base.BaseActivity;
+import guokun.com.cn.ondcode.R;
 
 public class MainActivity extends BaseActivity {
 
@@ -15,6 +12,8 @@ public class MainActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
+
+
     @Override
     protected int getLayoutid() {
         return R.layout.activity_main;
@@ -37,6 +36,7 @@ public class MainActivity extends BaseActivity {
         super.onRightClick();
         Toast.makeText(this, getClass().getInterfaces()+"_right", Toast.LENGTH_SHORT).show();
     }
+
 
 
 }

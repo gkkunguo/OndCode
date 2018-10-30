@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.SecondActivity">
-    <Button
+    tools:context=".activity.FruitActivity">
+
+    <ListView
+        android:id="@+id/listItem"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="kills"
-        android:text="button"/>
+        android:layout_height="match_parent"></ListView>
 
 </LinearLayout>

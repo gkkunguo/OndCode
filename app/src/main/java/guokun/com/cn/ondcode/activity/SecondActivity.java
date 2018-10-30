@@ -1,7 +1,11 @@
-package guokun.com.cn.ondcode;
+package guokun.com.cn.ondcode.activity;
 
 import android.os.Bundle;
 import android.view.View;
+
+import guokun.com.cn.ondcode.base.ActivityControler;
+import guokun.com.cn.ondcode.activity.base.BaseActivity;
+import guokun.com.cn.ondcode.R;
 
 public class SecondActivity extends BaseActivity {
 
